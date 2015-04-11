@@ -8,7 +8,7 @@ SRCS		=	$(shell ls $(SRC_PATH) | grep .cpp$$)
 OBJS		=	$(patsubst %.cpp, $(OBJ_PATH)%.o,$(SRCS))
 
 PLATFORM	:=	$(shell uname)
-CC			=	g++
+CC			=	clang++
 HEADER		=	-I./$(INC_PATH)
 FLAGS		=	-Ofast -g -Wall -Wextra -Werror -lm -Wno-deprecated-declarations -std=gnu++11 -Wno-unused
 
