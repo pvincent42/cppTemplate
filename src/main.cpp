@@ -3,7 +3,7 @@
 int
 main(int argc, char **argv)
 {
-	std::cout << "Bonjour" << std::endl;
+	std::cout << "Mon chibre est une salade" << std::endl;
 	(void)argc;
 	(void)argv;
 
